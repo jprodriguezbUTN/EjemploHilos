@@ -19,7 +19,7 @@ import ObserverPattern.*;
  *
  * @author jprod
  */
-public class Browser extends Thread implements Observable{
+public class Browser implements Observable{
     private String link;
     private String fileName;
     private Observer observer;
